@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGadgets - Premium Electronics Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <i class="fas fa-laptop"></i>TechGadgets
+                </a>
+
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#deals">Deals</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search products...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <a href="#cart" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </a>
+                    <a href="#login" class="btn">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeInDown">Latest Tech Gadgets 2025</h1>
+                <p class="animate__animated animate__fadeInUp">Discover the most innovative electronics with exclusive
+                    deals and free shipping on all orders.</p>
+                <a href="#products" class="btn btn-accent animate__animated animate__fadeInUp">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-new">New</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Wireless Headphones">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Wireless Headphones</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="product-price">$129.99</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-trending">Trending</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Smartphone Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Smartphone Pro</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-price">$899.99</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-sale">Sale</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Ultrabook Laptop">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Ultrabook Laptop</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="product-price">$1299.99 <span
+                                style="text-decoration: line-through; color: var(--text-muted); font-size: 1rem;">$1499.99</span>
+                        </p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-new">New</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Smart Watch">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Smart Watch</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="product-price">$199.99</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="categories-grid">
+                <!-- Category 1 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-mobile-alt" style="font-size: 64px; color: white;"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Smartphones</h3>
+                        <p>Latest models from top brands</p>
+                        <a href="#" class="btn">Browse</a>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-laptop" style="font-size: 64px; color: white;"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Laptops</h3>
+                        <p>Powerful machines for work and play</p>
+                        <a href="#" class="btn">Browse</a>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-headphones" style="font-size: 64px; color: white;"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Audio</h3>
+                        <p>Headphones, speakers and more</p>
+                        <a href="#" class="btn">Browse</a>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-tablet-alt" style="font-size: 64px; color: white;"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Tablets</h3>
+                        <p>Perfect for entertainment and productivity</p>
+                        <a href="#" class="btn">Browse</a>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-tv" style="font-size: 64px; color: white;"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>TV & Home</h3>
+                        <p>Smart TVs and home entertainment</p>
+                        <a href="#" class="btn">Browse</a>
+                    </div>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-camera" style="font-size: 64px; color: white;"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Cameras</h3>
+                        <p>Capture your moments in high quality</p>
+                        <a href="#" class="btn">Browse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals" id="deals">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Special Deals</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.2rem;">Limited time offers - don't miss out!
+            </p>
+
+            <div class="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number">02</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number">12</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number">45</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number">30</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Deal 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-sale">30% OFF</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Smart Speaker">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Smart Speaker</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="product-price">$69.99 <span
+                                style="text-decoration: line-through; color: var(--text-muted); font-size: 1rem;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-accent">Buy Now</a>
+                    </div>
+                </div>
+
+                <!-- Deal 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-sale">25% OFF</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Gaming Console">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Gaming Console</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="product-price">$299.99 <span
+                                style="text-decoration: line-through; color: var(--text-muted); font-size: 1rem;">$399.99</span>
+                        </p>
+                        <a href="#" class="btn btn-accent">Buy Now</a>
+                    </div>
+                </div>
+
+                <!-- Deal 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-sale">20% OFF</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Drone">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Camera Drone</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-price">$399.99 <span
+                                style="text-decoration: line-through; color: var(--text-muted); font-size: 1rem;">$499.99</span>
+                        </p>
+                        <a href="#" class="btn btn-accent">Buy Now</a>
+                    </div>
+                </div>
+
+                <!-- Deal 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge badge-sale">15% OFF</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                            alt="Fitness Tracker">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Fitness Tracker</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="product-price">$84.99 <span
+                                style="text-decoration: line-through; color: var(--text-muted); font-size: 1rem;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-accent">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About TechGadgets</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                        alt="TechGadgets Store">
+                </div>
+                <div class="about-text">
+                    <h2>Your Trusted Technology Partner</h2>
+                    <p>TechGadgets was founded in 2015 with a simple mission: to make cutting-edge technology accessible
+                        to everyone. What started as a small online store has grown into one of the most trusted names
+                        in tech retail.</p>
+                    <p>We carefully select every product in our inventory, ensuring that we offer only the highest
+                        quality gadgets from the most reputable brands. Our team of tech enthusiasts is always on the
+                        lookout for the latest innovations.</p>
+                    <p>At TechGadgets, we believe that technology should enhance your life, not complicate it. That's
+                        why we provide expert advice, detailed product information, and exceptional customer service to
+                        help you find the perfect products for your needs.</p>
+                </div>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                        alt="John Smith">
+                    <h3>John Smith</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                        alt="Sarah Johnson">
+                    <h3>Sarah Johnson</h3>
+                    <p>Head of Product</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                        alt="Michael Chen">
+                    <h3>Michael Chen</h3>
+                    <p>Tech Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                        alt="Emily Rodriguez">
+                    <h3>Emily Rodriguez</h3>
+                    <p>Customer Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Tech Street, Silicon Valley, CA 94301</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>support@techgadgets.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday-Friday: 9am-8pm</p>
+                            <p>Saturday-Sunday: 10am-6pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map">
+                <i class="fas fa-map-marked-alt" style="font-size: 48px; color: var(--primary);"></i>
+                <span style="margin-left: 1rem;">Interactive Map Would Appear Here</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest updates on new products, special offers, and tech tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit" class="btn btn-accent">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>TechGadgets</h3>
+                    <p>Your one-stop shop for the latest tech products and accessories.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#categories">Smartphones</a></li>
+                        <li><a href="#categories">Laptops</a></li>
+                        <li><a href="#categories">Tablets</a></li>
+                        <li><a href="#categories">Wearables</a></li>
+                        <li><a href="#categories">Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 TechGadgets. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
